@@ -6,7 +6,7 @@ Our HieraDate dataset has two versions:
 - [Distractor setting](https://www.dropbox.com/s/5weoi77lf6wlh3n/distractor_setting.zip?dl=0): the context contains 2 gold paragraphs and 8 distractor paragraphs
 
 
-Each sample include the following information:
+Each sample includes the following information:
   * ```id```
   * ```question```
   * ```answer```
@@ -18,6 +18,7 @@ Each sample include the following information:
 
 
 ## Evaluate on HieraDate
+To evaluate your model on HieraDate, use the following command:
 
 ```
 python3 hieradate_evaluate.py prediction_file.json gold_file.json
@@ -42,7 +43,7 @@ The updated files are: dev_line_update and train_line_update
 
 2. Use Spacy to extract names and then annotate the date with two formats: unstructured and structured
 
-3. Run file 2_hotpot_generate_sub.py
+3. Run file 2_hotpot_generate_sub.py 
 
 
 ### Combine HotpotQA and 2Wiki
