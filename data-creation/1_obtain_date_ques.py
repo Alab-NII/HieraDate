@@ -28,7 +28,6 @@ keywords = ['born first', 'who died', 'who lived longer', 'born later', 'who is 
     'died first', 'died later', 'died earlier']
 
 for item in data:
-    # print(item.keys())
     q_type = item['type']
     if q_type == 'comparison': 
         count_compare += 1
