@@ -31,10 +31,11 @@ python3 hieradate_evaluate.py prediction_file.json gold_file.json
 
 2. There are some cases that the date value in the tripe (of the evidence) does not exactly match with the text. We have munually update these cases:
 
-id: e618b2c608c911ebbd92ac1f6bf848b6 ("1568" => "February 1568")
+  * id: e618b2c608c911ebbd92ac1f6bf848b6 ("1568" => "February 1568")
 
-id: 460ca32008a111ebbd78ac1f6bf848b6 ("2010" => "25 December 2010")
-...
+  * id: 460ca32008a111ebbd78ac1f6bf848b6 ("2010" => "25 December 2010")
+  
+  * ...
 
 The updated files are: dev_line_update and train_line_update
 
