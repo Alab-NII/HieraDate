@@ -30,9 +30,12 @@ python3 hieradate_evaluate.py prediction_file.json gold_file.json
 1. Run file 1_obtain_date_ques.py (edit the path and the file name if necessary)
 
 2. There are some cases that the date value in the tripe (of the evidence) does not exactly match with the text. We have munually update these cases:
+
 id: e618b2c608c911ebbd92ac1f6bf848b6 ("1568" => "February 1568")
+
 id: 460ca32008a111ebbd78ac1f6bf848b6 ("2010" => "25 December 2010")
 ...
+
 The updated files are: dev_line_update and train_line_update
 
 3. Run file 2_wiki_generate_sub.py 
