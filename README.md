@@ -1,4 +1,4 @@
-This is the repository for the paper: How Well Do Multi-hop Reading Comprehension Models Understand Date Information? (AACL-IJCNLP 2022).
+This is the repository for the paper: [How Well Do Multi-hop Reading Comprehension Models Understand Date Information?](https://arxiv.org/abs/2210.05208v1) (AACL-IJCNLP 2022).
 
 ## Dataset Information
 Our HieraDate dataset has two versions:
